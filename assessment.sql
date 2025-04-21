@@ -23,5 +23,11 @@ update email as "rahul@gmailcom" from students where id='5'
 
 delete from students where(age<18)
 
+UPDATE students
+SET email = 'rahul@gmail.com'
+WHERE id = 5;
+
+DELETE FROM students
+WHERE age < 18;
 
 
